@@ -420,7 +420,7 @@ async def timer_blankx(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command(["koc", "kocok"], ".") & filters.me)
+@Client.on_message(filters.command(["xkoc", "xkocok"], ".") & filters.me)
 async def kocok(client: Client, message: Message):
     e = await edit_or_reply(message, "8✊===D")
     await e.edit("8=✊==D")
@@ -454,7 +454,7 @@ async def kocok(client: Client, message: Message):
     await e.edit("ᴀʙᴇ sᴀʟᴇ ᴋʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ᴛᴜ ʙʜɪ ᴛᴏʜ ᴋᴀʀᴛᴀ")
 
 
-@Client.on_message(filters.command(["fuck", "fucek"], ".") & filters.me)
+@Client.on_message(filters.command(["xfuck", "xfucek"], ".") & filters.me)
 async def ngefuck(client: Client, message: Message):
     e = await edit_or_reply(message, ".                       /¯ )")
     await e.edit(".                       /¯ )\n                      /¯  /")
@@ -539,7 +539,7 @@ async def hak(client: Client, message: Message):
     await message.edit_text("Hacking complete!\nUploading file...")
     await asyncio.sleep(2)
     await message.edit_text(
-        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nHEART-BEAT Database:\n`./DOWNLOADS/msgstore.db.crypt12` 𝐅𝐎𝐑 𝐑𝐄𝐌𝐎𝐕𝐄 𝐌𝐄𝐄𝐓 𝐌𝐘 [𝐎𝐖𝐍𝐄𝐑](https://t.me/rajeshrakis) & [𝐎𝐖𝐍𝐄𝐑](https://t.me/Ghostt_Batt)"
+        "𝗧𝗮𝗿𝗴𝗲𝘁 𝗔𝗰𝗰𝗼𝘂𝗻𝘁 𝗛𝗮𝗰𝗸𝗲𝗱...!\n\n🕹️ ғɪʟᴇ ʜᴀ𝗌 ʙᴇᴇɴ 𝗌ᴜᴄᴄᴇ𝗌𝗌ғᴜʟʟʏ ᴜᴘʟᴏᴀᴅᴇᴅ ᴛᴏ ᴍʏ 𝐇𝐁 𝗌ᴇʀᴠᴇʀ. \n\n ғɪʟᴇ ᴘᴀᴛʜ: \n ./DOWNLOADS/msgstore.db.crypt12 \n\n 𝐀𝐩𝐩𝐞𝐚𝐥 𝐌𝐞𝐚𝐭𝐌𝐞:\n [𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֯֟፝͢͡𖽸𖾓𝂬𓏲ࣹ᷼𝄢𝂬𝐁𖽞֟֠֯፝͢͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](https://t.me/HeartBeat_Muzic)"
     )
 
 
@@ -552,7 +552,7 @@ async def kontol(client: Client, message: Message):
     await message.edit(kontol)
 
 
-@Client.on_message(filters.command(["penis", "dick"], ".") & filters.me)
+@Client.on_message(filters.command(["xpenis", "xdick"], ".") & filters.me)
 async def titid(client: Client, message: Message):
     emoji = get_text(message)
     titid = MEMES.GAMBAR_TITIT
@@ -618,7 +618,7 @@ async def adadino(client: Client, message: Message):
     await typew.edit("`-DIED-`")
 
 
-@Client.on_message(filters.command(["sayang", "lover"], ".") & filters.me)
+@Client.on_message(filters.command(["mybabe", "lover"], ".") & filters.me)
 async def zeyenk(client: Client, message: Message):
     e = await edit_or_reply(message, "I LOVEE YOUUU 💕")
     await e.edit("💝💘💓💗")
@@ -646,7 +646,7 @@ async def zeyenk(client: Client, message: Message):
     await e.edit("LOVE YOU CUTE SI JAAN 💞")
 
 
-@Client.on_message(filters.command("gabut", ".") & filters.me)
+@Client.on_message(filters.command("escape", ".") & filters.me)
 async def menggabut(client: Client, message: Message):
     e = await edit_or_reply(message, "`GO AWAY`")
     await e.edit("`THHARA VAI JOGINDER`")
@@ -656,7 +656,7 @@ async def menggabut(client: Client, message: Message):
     await e.edit("`JAAAAA NAAA`")
     await e.edit("`RAMDKII`")
     await e.edit("`EMMM RUSSIAN`")
-    await e.edit("`FUCKKKK`")
+    await e.edit("`ESCAPE`")
     await e.edit("🙈🙈🙈🙈")
     await e.edit("🙉🙉🙉🙉")
     await e.edit("🙈🙈🙈🙈")
@@ -846,7 +846,7 @@ async def menggabut(client: Client, message: Message):
     await e.edit("🚶                              🐢")
     await e.edit("🚶                               🐢")
     await e.edit("🚶                                🐢")
-    await e.edit("`GABUT`")
+    await e.edit("`escaped`")
 
 
 @Client.on_message(filters.command(["helicopter", "heli"], ".") & filters.me)
